@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.whole-header .top-bar{
+  border-bottom: 2px solid #c8c8c8;
+}
+.whole-header .top-bar .navbar-brand .imagess{
+  width: 80px;
+  height: 80px;
+}
+.whole-header .top-bar .search_bar_section .input-group a i{
+  text-align: center;
+    padding: 12px;
+    font-size: 15px;
+    color: gray;
+}
+.whole-header .top-bar .search_bar_section .input-group .form-control{
+  position: relative;
+  border-radius: 14px !important;
+  border-color: aliceblue;
+  background-color: #f2f4f8;
+  padding: 11px;
+}
+.whole-header .top-bar .search_bar_section .input-group .form-control::placeholder
+{
+  padding-left: 20px;
+}
+.whole-header .top-bar .search_bar_section .input-group a{
+  position: absolute;
+  right: 13px;
+  top: 3px;
+  
+
+}
+.whole-header .top-bar .search_bar_section .create{
+  font-weight: 800;
+  color: rgb(5, 150, 227);
+  font-size: 20px;
+}
+.whole-header .top-bar .search_bar_section .shop{
+  font-weight: 800;
+  color: rgb(5, 5, 5);
+  font-size: 20px;
+}
+.whole-header .top-bar .btns .btn1{
+  background-color: #0596e3;
+  border-radius: 16px;
+  font-size: 16px;
+  text-decoration: none  !important;
+  padding: 6px;
+}
+.whole-header .top-bar .btns .btn{
+  background-color: #eff1f1;
+  border-radius: 16px;
+  font-size: 16px;
+  text-decoration: none  !important;
+}
+.whole-header .top-bar .btns .bell{
+      color: #0596e3;
+      font-size: 25px;
+}
+.whole-header .top-bar .btns .icons .bag{
+  font-size: 22px;
+  color: black;
+}
+.whole-header .top-bar .btns .icons .globe{
+  font-size: 22px;
+  color: #0596e3;
+}
+.whole-header .top-bar .btns .icons .reverse{
+  font-size: 22px;
+  color: black;
+}
+.whole-header .list ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+}
+.whole-header .list ul li a sup{
+  text-decoration: none;
+  font-size: 18px;
+}
+.whole-header .list ul li .fabr{
+  color: #0596e3;
+  font-weight: bold;
+}
+.whole-header .list ul li .clo{
+  color: #0596e3;
+  font-weight: bold;
+  color: black;
+}
+.whole-header .list ul{
+  list-style-type: none;
+}
+
+.filter-section .arrows .list ul li{
+  list-style: none;
+  text-decoration: none;
+}
+.filter-section .arrows .list ul li a {
+    list-style-type: none;
+  text-decoration: none;
+  color: rgb(93, 91, 91);
+}
+.filter-section .arrows .filters{
+  background-color: #f5f6f9;
+}
+.filter-section .arrows .filters .filterss .accordion {
+   /* background-color: #8b8c91 !important; */
+   --bs-accordion-bg: #f5f6f9;
+   --bs-accordion-border-color: none;
+   /* --bs-accordion-active-color: white; */
+   --bs-accordion-active-bg: #f5f6f9;
+}
+.filter-section .arrows .filters .filterss .accordion .accordion-item .accordion-collapse .accordion-body ul li{
+  list-style-type: none;
+}
+.filter-section .arrows .filters .filterss .accordion .accordion-item .accordion-collapse .accordion-body {
+    padding: 0 !important;
+}
+.filter-section .arrows .filters a{
+  color: #3d3e3e;
+}
+.filter-section .arrows .filters .fil{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.filter-section .boxes .card{
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #0596e3;
+}
+.filter-section .boxes{
+  border-radius: 10px;
+ 
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
